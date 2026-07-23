@@ -1,7 +1,4 @@
--- Run this once in the Supabase SQL Editor (Project -> SQL Editor -> New query).
 
--- 1. Profiles table: one row per authenticated user, holding the info
---    shown on the Profile page and the summary stats shown on Home/Progress.
 create table if not exists public.profiles (
   id uuid references auth.users on delete cascade primary key,
   full_name text not null,
@@ -27,7 +24,7 @@ create policy "Users can update their own profile"
   using (auth.uid() = id);
 
 
--- 2. Lesson progress table: one row per (user, lesson), tracking percent complete.
+
 create table if not exists public.lesson_progress (
   id uuid default gen_random_uuid() primary key,
   user_id uuid references auth.users on delete cascade not null,
