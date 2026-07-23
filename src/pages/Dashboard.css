@@ -1,4 +1,4 @@
-/* ---- Home ---- */
+
 .hero-panel {
   background: var(--color-black-panel);
   color:#fff;
@@ -197,7 +197,7 @@
   flex-shrink: 0;
 }
 
-/* ---- Lessons grid page ---- */
+
 .lessons-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -267,7 +267,7 @@
   font-weight: 500;
 }
 
-/* ---- Progress page ---- */
+
 .overall-progress-panel {
   background: var(--color-black-panel);
   color: #fff;
@@ -461,7 +461,7 @@
   color: var(--color-teal-dark);
 }
 
-/* ---- Profile ---- */
+
 .profile-header-card {
   display: flex;
   align-items: center;

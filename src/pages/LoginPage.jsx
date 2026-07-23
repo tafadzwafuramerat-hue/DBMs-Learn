@@ -23,7 +23,7 @@ export default function LoginPage() {
     e.preventDefault()
     setFormError('')
 
-    // Require full credentials before attempting to log in.
+    
     if (!email.trim() || !password.trim()) {
       setFormError('Please enter both your email and password to log in.')
       return
