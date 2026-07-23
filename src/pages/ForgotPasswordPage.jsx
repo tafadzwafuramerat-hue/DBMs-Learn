@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { HiOutlineMail } from 'react-icons/hi'
 import { FiAlertCircle, FiCheckCircle } from 'react-icons/fi'
-import { LuDatabase } from 'react-icons/lu'
+import {LuDatabase} from 'react-icons/lu'
 import { supabase } from '../lib/supabaseClient'
 import './Auth.css'
 
