@@ -1,7 +1,7 @@
 /* ---- Home ---- */
 .hero-panel {
   background: var(--color-black-panel);
-  color: #fff;
+  color:#fff;
   border-radius: var(--radius-lg);
   padding: 36px 40px;
   position: relative;
